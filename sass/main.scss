@@ -1,0 +1,212 @@
+.header{
+    width: 100%;
+ margin-top: 15px;
+ padding: 15px;
+ background-color: #f8f9fa!important;
+ box-shadow: 0 10px 20px rgba(0, 0, 0);  
+ border-bottom: 5px;
+ color: white;
+ display: flex;
+ align-items: center;
+ ul{
+     margin: 5px;
+ }
+
+ .container {
+   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+ }
+
+}
+
+ .navbar{
+     width: 100%;
+     .bg-light{
+         background-color: none !important;
+     }
+ }
+ section .container{
+     width: 100%;
+ }
+ form{
+
+     display: flex;
+     justify-content: end;
+     input{
+         margin-inline-end: 10px;
+     }
+ }
+ .collapse{
+     display: flex;
+     justify-content: space-between;
+ }
+ .about{
+     background: darkgrey;
+     margin: 30px;
+     border-radius: 20px;
+ }
+ .row-biz img {
+     width: 200px;
+     height: 200px;
+     margin: 20px;
+ }
+ 
+ .card0 {
+     border-radius: 20px;
+ }
+ .rasm{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     margin-left: 40px;
+     width: 200px;
+     height: 200px;
+     border-radius: 40%;
+     border: 5px;
+     box-shadow: 0 10px 20px rgba(0, 0, 0);   
+ }
+ .form{
+     text-align: center;
+ }
+
+ .fon{
+     width: 100%;
+ }
+ .container1, .container2{
+    margin: 20px;
+.card {
+    margin: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0);
+}
+ }
+ section .fon {
+     background: url('');
+ }
+ .program {
+     margin: 15px;
+     display: flex;
+     justify-content: center;
+     }
+ .pro{
+     margin-left: 20px;
+     margin: 15px;
+     width: 500px;
+     height: 300px;
+ }
+.section2 {
+    background-color: rgb(220, 245, 245);
+    margin-top: 60px;
+}
+    .scale img{
+        height: 250px;
+        -webkit-transition: all 1.5s linear 0s;
+        -moz-transition: all 1.5s linear 0s;
+        -o-transition: all 1.5s linear 0s;
+        transition: all 1.5s linear 0s;
+    }
+    .scale:hover img{
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        -o-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+    .fot{
+        -webkit-animation: rotating 30s infinite linear;
+        -moz-animation: rotating 30s infinite linear;
+        -ms-animation: rotating 30s infinite linear;
+        -o-animation: rotating 30s infinite linear;
+        animation: rotating 30s infinite linear;
+    }
+    
+    @-webkit-keyframes rotating {
+        to { -webkit-transform: rotate(360deg); }
+    }
+    @-moz-keyframes rotating {
+        to { -moz-transform: rotate(360deg); }
+    }
+    @-ms-keyframes rotating {
+        to { -ms-transform: rotate(360deg); }
+    }
+    @-o-keyframes rotating {
+        to { -o-transform: rotate(360deg); }
+    }
+    @keyframes rotating {
+        to { transform: rotate(360deg); }
+    }
+    
+.section3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+.card-photo {
+    width: auto;
+    height: auto;
+    .card-img-top{
+        width: 300px;
+        height: 300px;
+    }
+}
+}
+.reklama {
+    cursor: pointer;
+    color: chartreuse;
+}
+.cardbiz{
+    z-index: 2;
+    transform: scale(1);
+    background-color: cyan;
+    background-blend-mode: exclusion;
+    background-size: cover;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+.footer {
+    background-color: rgb(184, 190, 190);
+    color: white;
+}
+
+.foot{
+    margin-bottom: 30px;
+
+}
+.list-unstyled  li{
+    padding: 30px;
+}
+.sahifa {
+    margin: 10px;
+}
+.bilan {
+    color: red;
+}
+.cardbiz {
+    margin: 20px;
+}
+.cardbiz {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red; left:0px;}
+    50%  {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+  }
+ .form img .tot {
+    
+        height: 150px;
+  }
+
